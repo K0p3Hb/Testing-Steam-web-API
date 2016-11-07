@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="dota2stats-master/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/fluent-hc-4.2.5.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/httpclient-cache-4.2.5.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/httpmime-4.2.5.jar"/>
+	<classpathentry kind="lib" path="dota2stats-master/libs/jsoup-1.7.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
