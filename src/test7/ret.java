@@ -56,9 +56,14 @@ public class ret {
 	    List<MatchDetailPlayer> playersStatsOfTheMatch = detail.getPlayers();
 
 	    // Show 'em
-	    for(MatchDetailPlayer player : playersStatsOfTheMatch) 
-	    	for(Item item : player.getItems())
-	    		System.out.println(item.toString());         
+	    for(MatchDetailPlayer player : playersStatsOfTheMatch) {
+	    	
+	    	System.out.println(player.toString());
+	    	
+	    	/*for(Item item : player.getItems())
+	    		System.out.println(item.toString()); */   
+	    	System.out.println("\n");
+	    }
 	    
 	   /* System.out.println(detail.didRadianWin());
 	    System.out.println(detail.getLeagueId());
