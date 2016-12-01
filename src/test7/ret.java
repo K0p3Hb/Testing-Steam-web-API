@@ -10,7 +10,6 @@ import de.inkvine.dota2stats.domain.matchhistory.MatchHistory;
 import de.inkvine.dota2stats.domain.playersearch.PlayerSearchResult;
 import de.inkvine.dota2stats.exceptions.Dota2StatsAccessException;
 import de.inkvine.dota2stats.impl.Dota2StatsImpl;
-import java.sql.*;
 
 
 public class ret {
