@@ -1,19 +1,19 @@
 package test7;
 
+import java.sql.Date;
+import java.sql.Timestamp;
+
 import java.util.List;
 
 import de.inkvine.dota2stats.Dota2Stats;
-import de.inkvine.dota2stats.domain.GameMode;
 import de.inkvine.dota2stats.domain.MatchOverview;
 import de.inkvine.dota2stats.domain.filter.MatchHistoryFilter;
-import de.inkvine.dota2stats.domain.matchdetail.Item;
 import de.inkvine.dota2stats.domain.matchdetail.MatchDetail;
 import de.inkvine.dota2stats.domain.matchdetail.MatchDetailPlayer;
 import de.inkvine.dota2stats.domain.matchhistory.MatchHistory;
 import de.inkvine.dota2stats.domain.playersearch.PlayerSearchResult;
 import de.inkvine.dota2stats.exceptions.Dota2StatsAccessException;
 import de.inkvine.dota2stats.impl.Dota2StatsImpl;
-import java.sql.*;
 
 public class ret {
 
